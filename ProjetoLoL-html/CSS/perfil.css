@@ -1,0 +1,34 @@
+#tin, #brtt, #jankos, #faker {
+    display: grid;
+    width: 300px;
+    
+}
+#fototin, #fotobrtt, #fotojankos, #fotofaker {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+
+#fototin, #fotobrtt, #fotojankos, #fotofaker {
+    border-radius: 12px ;
+    border: 2px solid;
+    border-color: black;
+    background-color: lightskyblue;
+    height: 100px;
+    width: 130px;
+}
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 12px;    
+    border-color: black;
+    background-color: lightskyblue;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+h2:hover {
+    color: blue;
+}

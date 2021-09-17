@@ -1,0 +1,29 @@
+#bem-vindo {
+    width: 900px;
+    margin: 200px auto;
+}
+.menu-suspenso {
+    position: relative; /* O conteúdo atual acompanha o conteúdo da página */
+    display: inline-block; /* mostra o contéudo em única linha */
+    text-align: center;
+    width: 100%;
+    border: 5px solid black ;
+    border-collapse: collapse;
+    background-color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo-menu-suspenso{
+    position: center; /* O conteúdo atual não acompanha o conteúdo da página */
+    background-color: lightskyblue;
+    min-width: 200px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);   
+}
+.menu-suspenso:hover .conteudo-menu-suspenso { /* quando passar o mouse */
+    display: block; /* coloca para mostrar */
+}
+.conteudo-menu-suspenso a{
+    display: inline-block; /*faz aparecer cada link em uma única linha */
+    padding: 10px; /* espaçamento interno */
+    text-decoration: none; /* link não ficar sublinhado */
+    padding-inline: 100px;    
+}

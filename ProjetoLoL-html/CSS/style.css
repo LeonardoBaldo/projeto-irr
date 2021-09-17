@@ -1,0 +1,73 @@
+body { 
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{  /* referente ao menu em si */
+    position: relative;
+    border: double black;
+    background: lightblue; 
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{ /* referente aos itens do menu */ 
+    display: inline-block;
+}
+ul li a{  /* referente aos links dos itens */ 
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+ul li:hover{
+    background: lightgray   ;
+
+}   
+ul ul{ 
+    position: absolute;
+    min-width: 200px; 
+    display: none;
+    background: lightgray;
+}
+ul ul li{ 
+    display: block;
+    background: #e3e3e3;
+}
+
+ul li:hover ul{
+    display: block;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.figures{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+  }
+.figure{
+    height: 4rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#menuicon{
+    font-size: 0.59cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {    
+    text-decoration: underline;
+    text-decoration-color: midnightblue;
+    color: lightgray;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}

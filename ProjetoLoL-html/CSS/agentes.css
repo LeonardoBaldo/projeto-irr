@@ -1,0 +1,37 @@
+#conteudo {
+    width: 40%;
+    margin: 50px auto;
+    display: inline-block;
+    padding: 10px;  
+    margin-left: 100px;
+}
+#conteudo2 {
+    margin: 50px auto;
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    margin-right: 100px;
+}
+#tabela1, #tabela2 {
+    font-family: Arial, Helvetica, sans-serif; /* tipo de fonte */
+    border-collapse: collapse;
+    text-decoration: none;
+}
+td, th {
+    border: 2px double black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(230, 54, 89, 0.253);
+}
+thead {
+    background-color: #ddd;
+}
+tbody {
+    background-color: whitesmoke;
+}
+tr:hover { /* quando passar o mouse em cima da linha */
+    background-color: rgba(226, 4, 4, 0.596);
+}
+td {
+    background-color: rgba(230, 54, 89, 0.253);
+}

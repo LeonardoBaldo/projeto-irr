@@ -1,0 +1,70 @@
+input, .content  {
+    display: none;
+    background: lightblue;
+    padding: 5px 25px; /* espaçamento do texto */
+    color: #fff; /* cor do texto da caixa */
+    font: normal 1em/150% Sans-Serif; /* fonte do texto */
+    min-width: 200px; /* largura minima da caixa */
+    max-width: 600px; /* largura maxima da caixa */
+    text-align: center;
+    margin-left: 45px;
+}
+#one:checked ~ .one,
+#two:checked ~ .two {display: block;}
+label {
+    cursor: pointer;
+    background: lightblue;
+    height: 75px;
+    padding: 5px 5px; /* espaçamento dos lados do botão */ 
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    transition: background .25s linear;
+}
+label:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+.one, .two{
+    float: left;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+figure {
+    background: lightblue;
+    padding: 5px;
+    margin-top: 0px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#one:checked ~ .one,
+#two:checked ~ .two {display: block;}
+#conteudo {
+    width: 500px;
+    margin: 50px auto; 
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#tabela { 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%; /*-- ocupa 100% dos 800px */
+    border-collapse: collapse;
+}
+td, th {
+    border: 5px solid lightblue;
+    padding: 10px; /* espaçamento interno de cada cÃĐlula */ 
+    background-color: whitesmoke;
+}
+#video {
+    margin-top: 600px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+iframe {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    border-right: inset midnightblue 5px;
+    border-bottom: inset midnightblue 5px;
+    display: block;
+}

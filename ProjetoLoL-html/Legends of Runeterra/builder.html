@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="lang=pt-br">
+    <head> 
+        <link rel="sortcut icon" href="../Imagens/favicon.gif" type="image/x-icon" />
+     
+        <link rel="stylesheet" type="text/css" href="../CSS/builder.css"> 
+        <title> Deck Builder - go.gg </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/lor.css"> 
+        <link rel="stylesheet" type="text/css" href="../CSS/bodyLor.css">
+
+        <script type="text/javascript" src="../JS/builder.js"> </script>
+
+    </head>
+    <body> 
+        <nav id="menu">
+            <ul> 
+                <li><a id="menuicon" href="../Home/home.html"> GO.GG </a> </li>
+                <li><a href="../League Of Legends/leagueOfLegends.html"> •League of Legends </a>
+                    <ul>
+                        <li><a href="../League Of Legends/perfilLol.html">Perfil de Invocador</a></li>
+                        <li><a href="../League Of Legends/analise.html">Análise de Campeões</a></li>
+                        
+                    </ul>
+                
+                
+                </li>
+                <li><a href="../Valorant/valorant.html"> •Valorant </a>
+                    <ul> 
+                        <li> <a href="../Valorant/armas.html"> Armas </a> </li>
+                        <li><a href="../Valorant/agentes.html">Agentes</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="../Legends of Runeterra/legendsOfRuneterra.html"> •Legends of Runeterra </a>
+                    <ul>
+                        <li><a href="../Legends of Runeterra/builder.html"> Deck Builder </a></li>
+                        <li><a href="../Legends of Runeterra/biblioteca.html"> Biblioteca </a></li>
+                    </ul>
+                
+                </li>
+                <li><a id="contato" href="../Contato/contato.html"> •Contato</a> </li>
+            </ul>
+        </nav>
+        <div id="calculadora"> 
+            <h2> Calculadora de custo de Deck </h2>
+            <hr>
+            <div id="divCarta1">
+                <label> <img src="../Imagens/carta1.webp" > <figcaption> Campeão ($3000) </figcaption></label>
+                <input type="number" id="carta1" max="3" placeholder="Quantidade (max 3)" />
+                <span class="valido"></span> 
+                
+            </div> 
+            <div id="divCarta2">
+                <label> <img src="../Imagens/carta2.webp" ><figcaption> Comum ($100) </figcaption> </label>
+                <input type="number" id="carta2" max="3" placeholder="Quantidade (max 3)"/> 
+                <span class="valido"></span> 
+
+            </div> 
+            <div id="divCarta3">
+                <label> <img src="../Imagens/carta3.webp" > <figcaption> Comum ($100) </figcaption> </label>
+                <input type="number" id="carta3" max="3" placeholder="Quantidade (max 3)" /> 
+                <span class="valido"></span> 
+
+            </div> 
+            <div id="divCarta4">
+                <label>  <img src="../Imagens/carta4.webp" ><figcaption> Raro ($300) </figcaption> </label>
+                <input type="number" id="carta4" max="3" placeholder="Quantidade (max 3)"/> 
+                <span class="valido"></span> 
+
+            </div> 
+            <div id="divCarta5">
+                <label> <img src="../Imagens/carta5.webp" > <figcaption> Épico ($1200) </figcaption></label>
+                <input type="number" id="carta5" max="3" placeholder="Quantidade (max 3)"/> 
+                <span class="valido"></span> 
+
+            </div> 
+            <div id="botao"> 
+                <button onClick="calcula()" type="button" > Calcula </button> 
+                <hr> 
+            </div>
+            <div>
+                <!-- vamos usar JS no resultado (saída de dados) -->
+                <h4 id="resultado"> $0  </h4> 
+            </div> 
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

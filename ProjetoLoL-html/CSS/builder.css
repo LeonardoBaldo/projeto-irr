@@ -1,0 +1,60 @@
+#calculadora {   
+    /* estrutura da calculadora */
+    outline: black 2px solid; /* borda externa azul de 2px de espessura */ 
+    padding: 30px; /* espaçamento interno de 30 pixels (bolinha) */ 
+    width: 800px; /* largura do formulário */ 
+    margin: 40px auto; /* espaçamento interno de 40 pixels centralizado  */ 
+    background-color: whitesmoke;
+} 
+#divCarta1, #divCarta2, #divCarta3, #divCarta4, #divCarta5 { 
+    /* conteudo cartas + input */ 
+    padding: 20px;
+    padding-right: 100px;
+    max-width: 300px;
+    display: inline-block;
+    
+}
+img {
+    /* imagem das cartas em si */
+    height: 180px;
+    transition: transform .2s;
+    transition-delay: .2s;
+}
+img:hover {
+    /* zoom nas imagens */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    
+}
+#resultado {
+    /* caixa do resultado */
+    border: 2px solid black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    
+}
+
+figcaption {
+    /* legenda das imagens */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    /* titulo da calculadora */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input:invalid+span:after {
+    /* mensagem de erro no input */ 
+    content: '✖ max 3';
+    padding-left: 2px;
+}
+button {
+    /* botao (obvio ne porr4) */ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button:hover{
+    /* sombinha no botao */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}

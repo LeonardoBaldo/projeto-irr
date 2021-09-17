@@ -1,0 +1,22 @@
+figure {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    
+    
+}
+.cards {
+    width: 250px;
+    float: left;
+}
+#cartas {
+    width: 800px; /* largura da área que engloba as galerias */
+    margin: 40px auto;
+    
+}
+img{
+    width: 100%; /* cobrem 100% da largura da div da galeria */
+    height: auto; /* altura da imagem é a altura dela 400px */
+   
+}

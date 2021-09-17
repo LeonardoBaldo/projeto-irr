@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="lang=pt-br">
+    <head> 
+        <link rel="sortcut icon" href="../Imagens/favicon.gif" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <title> Valorant - go.gg </title>
+        <meta charset="utf-8"/>
+        <style>
+            body{ 
+                background-image: url(../Imagens/phoenix.jpg);
+                background-position-y: 48px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            #bem-vindo {
+                width: 800px;
+                margin: 200px auto;
+            }
+            .menu-suspenso {
+                position: relative; /* O conteúdo atual acompanha o conteúdo da página */
+                display: inline-block; /* mostra o contéudo em única linha */
+                text-align: center;
+                width: 100%;
+
+                border: 5px solid black ;
+                border-collapse: collapse;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .conteudo-menu-suspenso{
+                position: center; /* O conteúdo atual não acompanha o conteúdo da página */
+                background-color: rgba(226, 4, 4, 0.596);
+                min-width: 200px; 
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+
+            }
+            .menu-suspenso:hover .conteudo-menu-suspenso { /* quando passar o mouse */
+                display: block; /* coloca para mostrar */
+            }
+            .conteudo-menu-suspenso a{
+                display: inline-block; /* faz aparecer cada link em uma única linha */
+                padding: 10px; /* espaçamento interno */
+                text-decoration: none; /* link não ficar sublinhado */
+                padding-inline: 100px; 
+
+            }
+
+        </style> 
+    </head>
+    <body> 
+        <nav id="menu">
+            <ul> 
+                <li><a id="menuicon" href="../Home/home.html"> GO.GG </a> </li>
+                <li><a href="../League Of Legends/leagueOfLegends.html"> •League of Legends </a>
+                    <ul>
+                        <li><a href="../League Of Legends/perfilLol.html">Perfil de Invocador</a></li>
+                        <li><a href="../League Of Legends/analise.html">Análise de Campeões</a></li>
+                        
+                    </ul>
+                
+                
+                </li>
+                <li><a href="../Valorant/valorant.html"> •Valorant </a>
+                    <ul> 
+                        <li> <a href="../Valorant/armas.html"> Armas </a> </li>
+                        <li><a href="../Valorant/agentes.html">Agentes</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="../Legends of Runeterra/legendsOfRuneterra.html"> •Legends of Runeterra </a>
+                    <ul>
+                        <li><a href="../Legends of Runeterra/builder.html"> Deck Builder </a></li>
+                        <li><a href="../Legends of Runeterra/biblioteca.html"> Biblioteca </a></li>
+                    </ul>
+                
+                </li>
+                <li><a id="contato" href="../Contato/contato.html"> •Contato</a> </li>
+            </ul>
+        </nav>
+        <div id="bem-vindo">
+            <div class="menu-suspenso"> 
+                <h3> Bem vindo a página relaciona a valorant!<br> Clique em Perfil de jogador para saber mais sobre o seu jogador favorito! <br> Ou, se você é novo no jogo vá para a aba de Agentes para conhecer os agentes do valorant!!  </h3>
+                <div class="conteudo-menu-suspenso">
+                    <a href="../Valorant/armas.html"> Armas </a> </li> 
+                    <a href="agentes.html"> Agentes </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

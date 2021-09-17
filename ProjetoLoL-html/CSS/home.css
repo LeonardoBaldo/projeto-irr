@@ -1,0 +1,61 @@
+body { 
+    background-image: url(../Home/img-home/poro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #9d8f85;
+    background-image: -webkit-linear-gradient(92deg, #9d8f85, #80a3ae);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue;
+    -webkit-animation: hue 10s infinite linear;
+    margin: 10px auto;
+    width: 764px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+h1.text {
+    margin-top: 100px;
+}
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+#home2 {
+    width: 1200px;
+    padding: 10px;
+    margin: 100px auto;  
+}
+th, td {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgba(135, 206, 250, 0.507);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+}
+td:hover {
+    background-color: lightgray;
+}
+th {
+    background-color: #6a99a8;
+}
+#home1 {
+    margin-top: -80px;
+}

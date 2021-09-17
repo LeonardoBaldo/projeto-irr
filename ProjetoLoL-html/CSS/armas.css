@@ -1,0 +1,43 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff4654;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: left;
+    margin: 30px;
+    width: 1100px;
+}
+#armas {
+    width: 40%;
+    margin-top: 20px;
+    margin: 20px;
+    display: inline-flex;
+    padding: 10px;
+    
+}
+#armas2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+}
+tr {
+    color: white;
+}
+td, th {
+    border: 2px double black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: #16223d;
+}
+tbody {
+    background-color: #668dcb;
+}
+tbody:hover {
+    background-color: transparent;
+}
+td:hover {
+    background-color: #668dcb;
+}

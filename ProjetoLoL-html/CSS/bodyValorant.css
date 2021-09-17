@@ -1,0 +1,6 @@
+body { 
+    background-image: url(../Imagens/phoenix.jpg);
+    background-position-y: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

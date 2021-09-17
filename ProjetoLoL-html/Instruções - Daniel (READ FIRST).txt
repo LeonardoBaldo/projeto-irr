@@ -1,0 +1,18 @@
+Boa Tarde!
+Anexei este documento de texto pois tenho algumas observações para fazer.
+
+1º. Os sites foram montados utilizando a resolução 1366 x 768, é recomendável a utilização
+da mesma para melhor visualização.
+
+2º. A página entitulada "Armas" na seção do jogo "Valorant", foi feita na resolução xxxx x yyyy. 
+Pedimos desculpas mas não conseguimos padroniza-lá com as outras.
+
+3º. Para otimizar o tempo, preferimos montar apenas as 4 primeiras páginas dos campeões da 
+seção "Análise de Campeões" e deixar links para a página da wiki nos outros 4 personagens.
+
+Calculadora - se encontra na página "Deck Builder"
+Galeria de Imagens - se encontra na "Biblioteca"
+Vídeos - se encontram nas páginas dos 4 primeiros campeões na seção "Análise de Campeões"
+Tabela - se encontram na maioria das páginas.
+
+Autores: Juliano de Paula Silva, Leonardo Ferreira Baldo Oliveira 
