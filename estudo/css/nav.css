@@ -108,8 +108,11 @@ body{
 .titulo, .desc{
     text-align: center !important;
 }
+.inicio{
+    padding: 50px;
+}
 .desc {
-    font-size: 20px;
+    font-size: 19px;
     max-width: 45%;
     margin: auto;
 }
@@ -148,9 +151,6 @@ body{
     justify-content: center;
 }
 
-.inicio{
-    padding: 50px;
-}
 
 #parte2{
     background-color: rgb(235, 235, 235);
