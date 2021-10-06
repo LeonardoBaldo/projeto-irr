@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 .container{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 p, li{
     color: #444;
@@ -87,4 +87,8 @@ header, .navbar{
     color: #fff;
     background-color: transparent;
     border-color: #65DAF9;
+}
+
+.carousel-indicators .active{
+    background-color: #65DAF9;
 }
