@@ -183,3 +183,179 @@ header, .navbar{
     font-size: 26px;
     margin-top: 20px;
 }
+
+/* Times */
+
+.card-body{
+    text-align: center;
+    height: 150px;
+}
+
+.card i{
+    font-size: 80px;
+    color: #444;
+    text-align: center;
+    padding-top: 20px;
+}
+.col-md-3{
+    padding: 20px;
+}
+
+/* Trabalhe conosco */
+
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img{
+    background-image: url('../img/adm.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p{
+    color: #fff;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover{
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
+
+/* integ */ 
+
+#integ-area{
+    height: 500px;
+}
+
+#integ-area .container-fluid, #integ-area .row{
+    height: 100%;
+}
+
+#integ-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#integ-img{
+    background-image: url('../img/erps.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p{
+    color: #fff;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover{
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
+
+/* atacado */ 
+
+#atacado-area{
+    height: 500px;
+}
+
+#atacado-area .container-fluid, #atacado-area .row{
+    height: 100%;
+}
+
+#atacado-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#atacado-img{
+    background-image: url('../img/atacado.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p{
+    color: #fff;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#apply-btn:hover{
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
