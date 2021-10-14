@@ -116,4 +116,65 @@ $(document).ready(function() {
 
     }, 250);
 
+    // Filtro do portfolio
+
+    $('.filter-btn').on('click', function() {
+
+        let type = $(this).attr('id');
+        let boxes = $('.project-box');
+
+        $('.main-btn').removeClass('active');
+        $(this).addClass('active');
+
+        if(type == 'mkp-btn'){
+            eachBoxes('mkp', boxes);
+        } else if(type == 'pay-btn') {
+            eachBoxes('pay', boxes);
+        } else if(type == 'log-btn') {
+            eachBoxes('log', boxes);
+        } else if(type == 'erp-btn') {
+            eachBoxes('erp', boxes);
+        }
+
+    });
+
+    function eachBoxes(type, boxes) {
+
+        if(type == 'mkp') {
+            $(boxes).each(function() {
+                if(!$(this).hasClass(type)) {
+                    $(this).fadeOut('fast');
+                } else {
+                    $(this).fadeIn();
+                }
+            });
+        } else if(type == 'pay') {
+            $(boxes).each(function() {
+                if(!$(this).hasClass(type)) {
+                    $(this).fadeOut('fast');
+                } else {
+                    $(this).fadeIn();
+                }
+            });
+        } else if(type == 'log') {
+            $(boxes).each(function() {
+                if(!$(this).hasClass(type)) {
+                    $(this).fadeOut('fast');
+                } else {
+                    $(this).fadeIn();
+                }
+            });
+        } else if(type == 'erp') {
+            $(boxes).each(function() {
+                if(!$(this).hasClass(type)) {
+                    $(this).fadeOut('fast');
+                } else {
+                    $(this).fadeIn();
+                }
+            });
+        }
+
+    }
+
+
 });

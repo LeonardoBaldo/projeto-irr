@@ -201,7 +201,7 @@ header, .navbar{
     padding: 20px;
 }
 
-/* Trabalhe conosco */
+/* Cards Parallax */
 
 #apply-area{
     height: 500px;
@@ -358,4 +358,46 @@ header, .navbar{
 #apply-btn:hover{
     border-color: #65DAF9;
     background-color: #65DAF9;
+}
+
+/* Portfolio */
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn{
+    color: #444;
+    border: 1px solid transparent;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.img-fluid{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(68, 68, 68, 0.288);
+    border-radius: 8px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover{
+    color: #fff;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}
+
+.pay, .log, .erp{
+    display: none;
 }
