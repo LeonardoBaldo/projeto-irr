@@ -1,0 +1,28 @@
+:root{
+    --bg-color: #fff000;
+    --txt-color: #65daf9;
+}
+
+body{
+    background-color: var(--bg-color);
+    color:var(--txt-color);
+}
+
+#switch:checked + .container{
+    --bg-color: #222;
+    --txt-color: #fff;
+
+    background-color: var(--bg-color);
+    color:var(--txt-color);
+
+}
+
+.label{
+    cursor: pointer;
+}
+.label:after{
+    content: ' off';
+}
+
+
+
