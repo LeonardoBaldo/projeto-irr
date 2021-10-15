@@ -40,6 +40,10 @@ header, .navbar{
     color: #FFF;
 }
 
+.navbar-nav:hover{
+    cursor: pointer;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link{
     padding: 1rem .8rem;
 }
@@ -496,4 +500,82 @@ header, .navbar{
     font-size: 20px;
     margin-left: 30px;
     width: 150px;
+}
+
+/* footer */ 
+
+/* Contact area */
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+    text-align: left;
+}
+
+.contact-box h4{
+    color: #444;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.contact-box p{
+    margin-left: 70px;
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: #3ec1d5;
+}
+
+/* msg box */
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#msg-box h4{
+    font-weight: bold;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn{
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover{
+    color: #3ec1d5;
+}
+
+/* Copy */
+
+#copy-area{
+    background-color: #f1f1f1;
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: #3ec1d5;
 }
