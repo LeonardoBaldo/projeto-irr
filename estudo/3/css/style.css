@@ -579,3 +579,296 @@ header, .navbar{
     text-decoration: none;
     color: #3ec1d5;
 }
+
+/* Responsive Tablet */ 
+
+@media(max-width: 768px) {
+
+    /* Geral */ 
+
+    .container{
+        padding: 20px 0;
+    }
+
+    /* slider */
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption{
+        left: 10%;
+        right: 10%;
+    }
+
+    /* about */
+    #about-area img{
+        margin-top: 100px;
+    }
+
+    /* data */
+    .circle-box div{
+        padding: 0 10px;
+    }
+
+    #data-area p{
+        font-size: 16px;
+    }
+
+    /* times */
+    .card-title{
+        font-size: 14px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    .card-body{
+        height: 180px;
+    }
+
+    .col-md-3{
+        padding: 10px;
+    }
+
+    /* apply */
+    #apply-area .apply-box{
+        padding: 50px 20px;
+    }
+
+    #integ-area .apply-box{
+        padding: 50px 25px;
+    }
+
+    #atacado-area .apply-box{
+        padding: 50px 40px;
+    }
+
+    /* newsletter  */
+    #news-area p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input{
+        width: 70%;
+    }
+
+    /* contact */
+    
+    .contact-box{
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #3ec1d5;
+        text-align: left;
+    }
+    
+    .contact-box h4{
+        color: #444;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+    
+    .contact-box p{
+        margin-left: -10px;
+        font-size: 16px;
+        margin-bottom: 3px;
+        
+    }
+    
+    .contact-title{
+        font-weight: bold;
+        color: #3ec1d5;
+    }
+
+    #msg-box h4{
+        width: 350px;
+    }
+
+    
+
+}
+
+/* Mobile */
+
+@media(max-width: 425px) {
+
+    /* slider */
+    #mainSlider{
+        margin-top: 76px;
+    }
+
+    #mainSlider .carousel-caption{
+        top: 20%;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p{
+        display: none;
+    }
+
+    .carousel-caption .main-btn{
+        font-size: 14px;
+    }
+
+    /* Sobre */
+    .main-title{
+        font-size: 30px;
+    }
+
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* data */
+    .circle-box{
+        width: 50%;
+    }
+
+    /* times */
+    #team-area .col-md-3{
+        width: 50%;
+    }
+
+    .card-body{
+        height: 145px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+
+    /* cards parallax */
+    #apply-area{
+        height: auto;
+    }
+
+    #company-img, #integ-img, #atacado-img{
+        display: none;
+    }
+
+    #apply-area .row{
+        margin: 20px;
+    }
+
+    #integ-area .row{
+        margin: 20px;
+    }
+
+    #atacado-area .row{
+        margin: 20px;
+    }
+
+    #integ-area .apply-box{
+        padding: 50px 5px;
+    }
+
+    #atacado-area .apply-box{
+        padding: 50px 5px;
+    }
+
+    /* filtro */
+    #portfolio-area .filter-btn{
+        margin-bottom: 20px;
+    }
+
+    .project-box{
+        width: 50%;
+    }
+
+    #filter-btn-box{
+        margin-bottom: 20px;
+    }
+
+    /* newsletter */
+    
+    #news-area .main-title{
+        font-size: 24px;
+    }
+
+    #news-area p{
+        font-size: 16px;
+    }
+
+    #email-input{
+        width: 80%;
+    }
+
+    /* call to action */
+
+    #call-area p, #call-area #call-btn{
+        font-size: 15px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    #call-area .container{
+        padding: 40px 20px;
+    }
+
+    /* contato */
+    
+    .contact-box{
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        border-bottom: none;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    
+    .contact-box h4{
+        color: #444;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    
+    .contact-box p{
+        margin-left: 30px;
+        font-size: 18px;
+        margin-bottom: 3px;
+        
+    }
+    
+    .contact-title{
+        font-weight: bold;
+        color: #3ec1d5;
+    }
+
+    #msg-box h4{
+        width: 350px;
+    }
+
+    #contact-form .main-btn{
+        width: 150px;
+    }
+
+}
+
+/* fim. */ 

@@ -7,7 +7,7 @@ $(document).ready(function() {
        
         color: '#64DAF9',
         strokeWidth: 8,
-        duration: 1400,
+        duration: 4000,
         from: {color: '#AAA' },
         to: {color: '#65DAF9'},
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
        
         color: '#64DAF9',
         strokeWidth: 8,
-        duration: 1800,
+        duration: 4000,
         from: {color: '#AAA' },
         to: {color: '#65DAF9'},
 
@@ -51,7 +51,7 @@ $(document).ready(function() {
        
         color: '#64DAF9',
         strokeWidth: 8,
-        duration: 2200,
+        duration: 4000,
         from: {color: '#AAA' },
         to: {color: '#65DAF9'},
 
@@ -73,7 +73,7 @@ $(document).ready(function() {
        
         color: '#64DAF9',
         strokeWidth: 8,
-        duration: 2300,
+        duration: 4000,
         from: {color: '#AAA' },
         to: {color: '#65DAF9'}, //#A50B01
 
@@ -105,6 +105,8 @@ $(document).ready(function() {
         }
 
     });
+
+    
 
     //Parallax 
     setTimeout(function() {
