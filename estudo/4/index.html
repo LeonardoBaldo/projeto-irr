@@ -24,38 +24,102 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
-    <!-- Side menu -->
-    <div class="btn">
-        <span class="fas fa-bars"></span>
-     </div>
-     <nav class="sidebar">
-        <div class="text"> Faça login </div>
-        <ul>
-           <li class="active"><a href="#"> Home </a></li>
-           <li>
-              <a href="#" class="feat-btn"> Minha conta
-              <span class="fas fa-caret-down first"></span>
-              </a>
-              <ul class="feat-show">
-                 <li><a href="#"> Meus pedidos </a></li>
-                 <li><a href="#"> Favoritos </a></li>
-              </ul>
-           </li>
-           <li>
-              <a href="#" class="serv-btn"> Destaques
-              <span class="fas fa-caret-down second"></span>
-              </a>
-              <ul class="serv-show">
-                 <li><a href="#"> Mais procurados</a></li>
-                 <li><a href="#"> Acabaram de chegar</a></li>
-              </ul>
-           </li>
-           <li><a href="#"> Oferta do dia</a></li>
-           <li><a href="#"> Seja Prime Ninja </a></li>
-           <li><a href="#"> Cartão KaBuM!</a></li>
-           <li><a href="#"> PIX </a></li>
-        </ul>
-     </nav>
-     <script src="js/script.js"></script>
+   <header>
+      <div class="container" id="nav-container">
+         <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a href="#" class="navbar-brand">
+               <img id="logo" src="img/mystore.png" height="50px" alt="Irroba">
+            </a>
+            <!-- busca -->
+            <form class="form-inline" action="#">
+               <input class="form-control mr-sm-2" type="text" placeholder="Busque aqui...">
+               <button class="btn-success" type="submit"> GO </button>
+            </form>
+            <!-- Toggle mobile --> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+               <div class="navbar-nav">
+                  <div class="btn">
+                     <span class="fas fa-bars"></span>
+                  </div>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <i class="far fa-user-circle"></i>   
+                     </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"> Login </a>
+                        <a class="dropdown-item" href="#"> Cadastre-se</a> 
+                      </div>
+                  </li>
+                  <a class="nav-item nav-link" id="sac-menu"><i class="fas fa-headset"></i></a>
+                  <a class="nav-item nav-link" id="theme-menu"><i class="fas fa-moon"></i></a>
+                  <a class="nav-item nav-link" id="cart-menu"><i class="fas fa-shopping-cart"></i></a>
+                  
+               </div>
+            </div>
+        </nav>
+      </div>
+      
+      
+   </header>
+   <!-- Side menu -->
+   <nav class="sidebar">
+      <div class="text"><i class="far fa-user-circle"></i> Faça login </div>
+         <ul>
+            <li class="active"><a href="#"> Home </a></li>
+            <li>
+               <a href="#" class="feat-btn"> Minha conta
+               <span class="fas fa-caret-down first"></span>
+               </a>
+               <ul class="feat-show">
+                  <li><a href="#"> Meus pedidos </a></li>
+                  <li><a href="#"> Favoritos </a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#" class="serv-btn"> Destaques
+               <span class="fas fa-caret-down second"></span>
+               </a>
+               <ul class="serv-show">
+                  <li><a href="#"> Mais procurados</a></li>
+                  <li><a href="#"> Acabaram de chegar</a></li>
+               </ul>
+            </li>
+            <li><a href="#"> Oferta do dia</a></li>
+            <li><a href="#"> Seja Prime </a></li>
+            <li><a href="#"> Cartão MyStore </a></li>
+            <li><a href="#"> PIX </a></li>
+         </ul>      
+      </nav>
+      <div class="container-fluid">
+         <nav id="categorias">
+
+            <!-- Links -->
+            <ul class="navbar-nav" id="categ-links">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Periféricos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Hardware </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Games </a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#"> Eletrônicos </a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#"> TV </a>
+             </li>
+            </ul>
+          
+          </nav>
+      </div>
+   <script src="js/script.js"></script>
 </body>
 </html>
